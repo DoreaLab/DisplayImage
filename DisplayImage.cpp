@@ -15,7 +15,8 @@ int main( int argc, char** argv )
     Mat image;
     image = imread( imageName, IMREAD_COLOR ); // Read the file
     if( image.empty()) {
-        cout <<  "Could not open or find the image" << std::endl ;
+        cout <<  "Could not open or find the image" << std::endl;
+        cout <<  "Usage: DisplayImage [image file]" << std::endl;
         return -1;
     }
     namedWindow( "Display window", WINDOW_AUTOSIZE ); // Create a window for display.
