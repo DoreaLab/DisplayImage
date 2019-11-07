@@ -1,2 +1,2 @@
 # DisplayImage
-OpenCV C++ and Python test file
+Use the file to quicly test your OpenCV C++ and Python are install correctly.
